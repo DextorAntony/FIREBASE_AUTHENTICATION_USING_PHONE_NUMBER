@@ -11,4 +11,11 @@ public class Profile extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_profile);
     }
+    
+    @Override
+    public void onBackPressed(){
+    finish();
+    finishAffinity();
+        super.onBackPressed();
+    }
 }

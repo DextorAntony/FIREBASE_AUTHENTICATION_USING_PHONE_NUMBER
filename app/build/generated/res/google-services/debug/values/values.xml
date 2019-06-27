@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">865238972642-crbmni6val993mvhl01iddaoc04l42g5.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://fb-auth-mobile.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">865238972642</string>
+    <string name="google_api_key" translatable="false">AIzaSyBOVedxvvwDn_zWkYogn_zaxwzvbCsiTxQ</string>
+    <string name="google_app_id" translatable="false">1:865238972642:android:23b31ab1b8cba51e</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBOVedxvvwDn_zWkYogn_zaxwzvbCsiTxQ</string>
+    <string name="google_storage_bucket" translatable="false">fb-auth-mobile.appspot.com</string>
+    <string name="project_id" translatable="false">fb-auth-mobile</string>
+</resources>

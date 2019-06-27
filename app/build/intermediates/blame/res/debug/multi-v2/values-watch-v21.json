@@ -1,0 +1,20 @@
+{
+    "logs": [
+        {
+            "outputFile": "/home/t0x1c/AndroidStudioProjects/FBAUTHMOBILE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v21/values-watch-v21.xml",
+            "map": [
+                {
+                    "source": "/home/t0x1c/.gradle/caches/transforms-2/files-2.1/03150878805b916693ee572d96a46ff0/appcompat-1.0.2/res/values-watch-v21/values-watch-v21.xml",
+                    "from": {
+                        "startLines": "2,6,10",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,271,499",
+                        "endLines": "5,9,13",
+                        "endColumns": "12,12,12",
+                        "endOffsets": "266,494,724"
+                    }
+                }
+            ]
+        }
+    ]
+}

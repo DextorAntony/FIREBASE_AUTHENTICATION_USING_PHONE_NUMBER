@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "865238972642",
+    "firebase_url": "https://fb-auth-mobile.firebaseio.com",
+    "project_id": "fb-auth-mobile",
+    "storage_bucket": "fb-auth-mobile.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865238972642:android:23b31ab1b8cba51e",
+        "android_client_info": {
+          "package_name": "com.fbauthmobile"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865238972642-j1daqcjuasj5lvmp7vi998ug7v58k4k3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.fbauthmobile",
+            "certificate_hash": "59aacc84badab49e174b9a33e937ad5faa155d65"
+          }
+        },
+        {
+          "client_id": "865238972642-crbmni6val993mvhl01iddaoc04l42g5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBOVedxvvwDn_zWkYogn_zaxwzvbCsiTxQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865238972642-crbmni6val993mvhl01iddaoc04l42g5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textSize="20dp"
+    android:padding="10dp"
+    android:id="@+id/tv"
+
+    android:text="WhatsApp will send you an SMS message containing a code you will use to verify your number."/>
+<Spinner
+    android:layout_above="@+id/otp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    />
+
+<EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/sms"
+
+    android:layout_below="@id/otp"/>
+    <EditText
+        android:id="@+id/code"
+        android:layout_width="70dp"
+
+        android:hint="91"
+        android:layout_height="wrap_content"
+
+
+        android:layout_centerVertical="true" />
+
+    <EditText
+        android:id="@+id/otp"
+android:layout_marginEnd="20dp"
+        android:layout_width="227dp"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+
+        android:hint="Mobile Number" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:id="@+id/send"
+        android:text="Send Otp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@android:color/black"
+
+        android:text="Carrier charges may apply"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/sms"
+        android:layout_marginStart="10dp"
+        android:id="@+id/t"
+        android:textSize="15dp"/>
+
+
+</RelativeLayout>

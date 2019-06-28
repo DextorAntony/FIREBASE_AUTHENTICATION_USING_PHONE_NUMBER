@@ -39,7 +39,7 @@ Button send;
         
         
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
-        if(users!=null){
+        if(user!=null){
         Intent i = new Intent(getApplicationContext(),Profile.class);
             
             startActivity(i);

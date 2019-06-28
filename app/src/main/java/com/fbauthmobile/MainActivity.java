@@ -16,6 +16,7 @@ import com.google.android.gms.tasks.TaskExecutors;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 import com.google.firebase.auth.PhoneAuthCredential;
 import com.google.firebase.auth.PhoneAuthProvider;
 
@@ -30,13 +31,22 @@ Button send;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
         mAuth = FirebaseAuth.getInstance();
-
         otp = findViewById(R.id.otp);
         code = findViewById(R.id.code);
         send = findViewById(R.id.send);
-sms = findViewById(R.id.sms);
+        sms = findViewById(R.id.sms);
+        
+        
+        FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
+        if(users!=null){
+        Intent i = new Intent(getApplicationContext(),Profile.class);
+            
+            startActivity(i);
+            
+        }
+        
+        
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

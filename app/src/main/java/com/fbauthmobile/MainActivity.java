@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.text.Editable;
+import android.text.TextWatcher;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -12,7 +14,6 @@ import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
-import com.google.android.gms.tasks.TaskExecutors;
 import com.google.firebase.FirebaseException;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
@@ -32,12 +33,15 @@ Button send;
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         mAuth = FirebaseAuth.getInstance();
-        otp = findViewById(R.id.otp);
+        otp = findViewById(R.id.phnum);
         code = findViewById(R.id.code);
         send = findViewById(R.id.send);
-        sms = findViewById(R.id.sms);
-        
-        
+        sms = findViewById(R.id.otpd);
+
+
+
+
+
         FirebaseUser user = FirebaseAuth.getInstance().getCurrentUser();
         if(user!=null){
         Intent i = new Intent(getApplicationContext(),Profile.class);
@@ -45,7 +49,27 @@ Button send;
             startActivity(i);
             
         }
-        
+        code.addTextChangedListener(new TextWatcher() {
+
+            public void onTextChanged(CharSequence s, int start,int before, int count)
+            {
+                // TODO Auto-generated method stub
+                if(code.getText().toString().length()==2)     //size as per your requirement
+                {
+                    otp.requestFocus();
+                }
+            }
+            public void beforeTextChanged(CharSequence s, int start,
+                                          int count, int after) {
+                // TODO Auto-generated method stub
+
+            }
+
+            public void afterTextChanged(Editable s) {
+                // TODO Auto-generated method stub
+            }
+
+        });
         
         send.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -123,8 +147,8 @@ Button send;
                 }
             }
         });
-    }
-    }
+
+    }}
 
 
 

@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/home/t0x1c/AndroidStudioProjects/FBAUTHMOBILE/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
+            "outputFile": "/home/dextor/StudioProjects/FIREBASE_AUTHENTICATION_USING_PHONE_NUMBERh/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-watch-v20/values-watch-v20.xml",
             "map": [
                 {
-                    "source": "/home/t0x1c/.gradle/caches/transforms-2/files-2.1/03150878805b916693ee572d96a46ff0/appcompat-1.0.2/res/values-watch-v20/values-watch-v20.xml",
+                    "source": "/home/dextor/.gradle/caches/transforms-2/files-2.1/98b3f089dac962a27dccf36db23e2849/appcompat-1.0.2/res/values-watch-v20/values-watch-v20.xml",
                     "from": {
                         "startLines": "2,5,8",
                         "startColumns": "4,4,4",

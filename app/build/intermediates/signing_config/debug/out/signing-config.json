@@ -1,1 +1,1 @@
-{"mName":"debug","mStoreFile":"/home/t0x1c/.android/debug.keystore","mStorePassword":"android","mKeyAlias":"AndroidDebugKey","mKeyPassword":"android","mStoreType":"jks","mV1SigningEnabled":true,"mV2SigningEnabled":true}
+{"name":"debug","storeType":"jks","storeFile":"/home/dextor/.android/debug.keystore","storePassword":"android","keyAlias":"AndroidDebugKey","keyPassword":"android","v1SigningEnabled":true,"v2SigningEnabled":true}

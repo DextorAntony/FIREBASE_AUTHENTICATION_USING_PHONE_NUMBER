@@ -776,11 +776,12 @@ id normal
 id notification_background
 id notification_main_column
 id notification_main_column_container
-id otp
+id otpd
 id packed
 id parent
 id parentPanel
 id percent
+id phnum
 id progress_circular
 id progress_horizontal
 id radio
@@ -807,7 +808,6 @@ id shortcut
 id showCustom
 id showHome
 id showTitle
-id sms
 id spacer
 id split_action_bar
 id spread

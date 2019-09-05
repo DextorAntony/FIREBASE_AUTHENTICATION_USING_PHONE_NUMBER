@@ -13,7 +13,7 @@
 
     android:text="WhatsApp will send you an SMS message containing a code you will use to verify your number."/>
 <Spinner
-    android:layout_above="@+id/otp"
+    android:layout_above="@+id/phnum"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
 
@@ -22,28 +22,36 @@
 <EditText
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    android:id="@+id/sms"
+    android:id="@+id/otpd"
+android:inputType="number"
+    android:layout_below="@id/phnum"/>
 
-    android:layout_below="@id/otp"/>
     <EditText
         android:id="@+id/code"
         android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
 
         android:hint="91"
-        android:layout_height="wrap_content"
+        android:inputType="number"
 
 
-        android:layout_centerVertical="true" />
+        android:maxLength="2"
+        android:nextFocusLeft="@id/phnum"
+        android:nextFocusUp="@id/phnum"
+        android:nextFocusDown="@id/phnum"
+        android:nextFocusForward="@id/phnum" />
 
     <EditText
-        android:id="@+id/otp"
+        android:inputType="number"
+        android:id="@+id/phnum"
 android:layout_marginEnd="20dp"
         android:layout_width="227dp"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="10dp"
-
+android:maxLength="10"
         android:hint="Mobile Number" />
 
     <Button
@@ -60,7 +68,7 @@ android:layout_marginEnd="20dp"
 
         android:text="Carrier charges may apply"
         android:layout_marginTop="10dp"
-        android:layout_below="@id/sms"
+        android:layout_below="@id/otpd"
         android:layout_marginStart="10dp"
         android:id="@+id/t"
         android:textSize="15dp"/>
